@@ -1,0 +1,12 @@
+{
+  "short_name": "Peth Extension",
+  "name": "Peth Chrome Extension",
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/"],
+      "js": ["static/js/content-script.js"]
+    }
+  ]
+}
